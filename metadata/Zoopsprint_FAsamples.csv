@@ -1,0 +1,424 @@
+Tube.ID,Date.collected,Species,Stage,# Ind.,Lengths,Notes,Date.Run,Site,Status,Date.picked
+ZFA-001,5/18/2021,Aequorea victoria,medusa,1,,,8/18/2021,QU39,,5/18/2021
+ZFA-002A,5/18/2021,Euphausia pacifica,adult,2,,,8/18/2021,QU39,,5/18/2021
+ZFA-002B,5/18/2021,Euphausia pacifica,adult,3,,,8/18/2021,QU39,,5/18/2021
+ZFA-002C,5/18/2021,Euphausia pacifica,adult,5,,,8/18/2021,QU39,,5/18/2021
+ZFA-003,5/18/2021,Clytia gregaria,medusa,50,,,8/18/2021,QU39,,5/18/2021
+ZFA-004B,5/18/2021,Primno abyssalis,adult female,2,,,8/18/2021,QU39,,5/18/2021
+ZFA-004A,5/18/2021,Primno abyssalis,adult female,1,,,8/18/2021,QU39,,5/18/2021
+ZFA-005,5/18/2021,Themisto pacifica,adult female w eggs,10,,,6/3/2021,QU39,,5/18/2021
+ZFA-006,5/18/2021,Pleurobrachia,,8,,,8/18/2021,QU39,,5/18/2021
+ZFA-007A,5/18/2021,Cyphocaris challengeri,adult,5,,,9/27/2021,QU39,,5/18/2021
+ZFA-007B,5/18/2021,Cyphocaris challengeri,adult,5,,,9/27/2021,QU39,,5/18/2021
+ZFA-008,5/18/2021,Cyphocaris challengeri,adult female w eggs/babies,2,,,6/3/2021,QU39,,5/18/2021
+ZFA-009,5/18/2021,Proboscidactyla flavicirrata,,20,,,,QU39,,5/18/2021
+ZFA-010,5/18/2021,Metridia pacifica,mostly C6 females; some C5,50,,carapaces burst after FW rinse,,QU39,,5/18/2021
+ZFA-011,5/18/2021,Eucalanus bungii,,30,,,6/3/2021,QU39,,5/18/2021
+ZFA-012A,5/18/2021,Paraeuchaeta elongata,,4,,,8/18/2021,QU39,,5/18/2021
+ZFA-012B,5/18/2021,Paraeuchaeta elongata,,5,,one w eggs,8/18/2021,QU39,,5/18/2021
+ZFA-013,5/19/2021,Calanus spp. ,,30,,,9/27/2021,QU39,,5/19/2021
+ZFA-014,5/19/2021,Beroe,,4,,,8/18/2021,QU39,,5/19/2021
+ZFA-015,5/19/2021,Limacina helicina,,20,,,6/3/2021,QU39,,5/19/2021
+ZFA-016,5/19/2021,Pasiphaea pacifica,,2,,,8/18/2021,QU39,,5/19/2021
+ZFA-017,5/19/2021,Metridia pacifica,,50,,,8/18/2021,QU39,,5/19/2021
+ZFA-018,5/19/2021,Disconchoecia elegans,,50,,,6/3/2021,QU39,,5/19/2021
+ZFA-019,5/19/2021,Clione limacina,,5,,,6/3/2021,QU39,,5/19/2021
+ZFA-020,5/19/2021,Siphonophorae,,11,,,,QU39,,5/19/2021
+ZFA-021,5/19/2021,Tomopteris,,1,,,8/8/2022,QU39,,5/19/2021
+ZFA-022,5/19/2021,Parasagitta elegans,,15,,,,QU39,,5/19/2021
+ZFA-023,5/19/2021,Eucalanus bungii,,30,,picked by Anna,9/27/2021,QU39,,5/19/2021
+ZFA-024,5/19/2021,Metridia pacifica,,58,,picked by Anna,6/3/2021,QU39,,5/19/2021
+ZFA-025,5/19/2021,Paraeuchaeta elongata,,11,,picked by Anna,11/24/2021,QU39,,5/19/2021
+ZFA-026,5/20/2021,Euphausia pacifica,,15,,,,QU39,isotopes,5/20/2021
+ZFA-027,5/20/2021,Themisto pacifica,,10,,,9/27/2021,QU39,,5/20/2021
+ZFA-028,5/20/2021,Cyphocaris challengeri,,5,,,,QU39,isotopes,5/20/2021
+ZFA-029,5/20/2021,Limacina helicina,,25,,,11/24/2021,QU39,,5/20/2021
+ZFA-030,5/20/2021,Primno abyssalis,,2,,,11/24/2021,QU39,,5/20/2021
+ZFA-031,5/20/2021,Scina spp.,,1,,,8/8/2022,QU39,,5/20/2021
+ZFA-032,5/20/2021,Paraeuchaeta elongata,,8,,,,QU39,isotopes,5/20/2021
+ZFA-033,5/20/2021,Tomopteris,,2,,,8/8/2022,QU39,,5/20/2021
+ZFA-034,5/20/2021,Calanus spp. ,,30,,,6/3/2021,QU39,,5/20/2021
+ZFA-035,5/20/2021,Neocalanus plumchrus,,11,,,11/24/2021,QU39,,5/20/2021
+ZFA-036,5/20/2021,Calanus spp. ,,20,,,11/24/2021,QU39,,5/20/2021
+ZFA-037,5/20/2021,Eucalanus bungii,,20,,,11/24/2021,QU39,,5/20/2021
+ZFA-038,5/20/2021,Tomopteris,,10,,,,QU39,,5/20/2021
+ZFA-039,5/20/2021,Clione limacina,,3,,,9/27/2021,QU39,,5/20/2021
+ZFA-040,5/20/2021,Parasagitta elegans,,8,,,,QU39,,5/20/2021
+ZFA-041,5/20/2021,Neocalanus plumchrus,,25,,,6/3/2021,QU39,,5/20/2021
+ZFA-042,5/20/2021,Metridia pacifica,,64,,picked by Anna,6/3/2021,QU39,,5/20/2021
+ZFA-043,7/20/2021,Cyphocaris challengeri,,5,,,,QU39,isotopes,7/20/2021
+ZFA-044,7/20/2021,Cyphocaris challengeri,,5,,,,QU39,,7/20/2021
+ZFA-045,7/20/2021,Clione limacina,,3,one ~15 mm; two small,,8/10/2021,QU39,,7/20/2021
+ZFA-046,7/20/2021,Cyphocaris challengeri,,5,,,8/10/2021,QU39,,7/20/2021
+ZFA-047,7/20/2021,Cyphocaris challengeri,,5,,,8/18/2021,QU39,,7/20/2021
+ZFA-048,7/20/2021,Cyphocaris challengeri,,5,,,,QU39,isotopes,7/20/2021
+ZFA-049,7/20/2021,Themisto pacifica,,10,,,8/10/2021,QU39,,7/20/2021
+ZFA-050,7/20/2021,Themisto pacifica,,10,,,,QU39,,7/20/2021
+ZFA-051,7/20/2021,Themisto pacifica,,10,,,,QU39,,7/20/2021
+ZFA-052,7/20/2021,Themisto pacifica,,10,,,9/27/2021,QU39,,7/20/2021
+ZFA-053,7/20/2021,Themisto pacifica,,10,,,isotopes,QU39,isotopes,7/20/2021
+ZFA-054,7/20/2021,Themisto pacifica,,10,,,8/18/2021,QU39,,7/20/2021
+ZFA-055,7/20/2021,Primno abyssalis,,3,,,8/10/2021,QU39,,7/20/2021
+ZFA-056,7/20/2021,Primno abyssalis,,3,,,,QU39,isotopes,7/20/2021
+ZFA-057,7/20/2021,Primno abyssalis,,3,,,8/18/2021,QU39,,7/20/2021
+ZFA-058,7/20/2021,Primno abyssalis,,3,,,,QU39,isotopes,7/20/2021
+ZFA-059,7/20/2021,Primno abyssalis,,3,,,9/27/2021,QU39,,7/20/2021
+ZFA-060,7/20/2021,Euphausia pacifica,sm adults,3,,,8/10/2021,QU39,,7/20/2021
+ZFA-061,7/20/2021,Euphausia pacifica,sm adults,3,,,,QU39,,7/20/2021
+ZFA-062,7/20/2021,Euphausia pacifica,2 sm 1 lg adults,3,,,,QU39,,7/20/2021
+ZFA-063,7/20/2021,Euphausia pacifica,sm adults,3,,,,QU39,,7/20/2021
+ZFA-064,7/20/2021,Hyperia,,3,,,8/10/2021,QU39,,7/20/2021
+ZFA-065,7/20/2021,Scina spp.,,3,,,,QU39,freezer,7/20/2021
+ZFA-066,7/20/2021,Disconchoecia elegans,,53,,,8/10/2021,QU39,,7/20/2021
+ZFA-067,7/20/2021,Munida quadraspina,,3,,,,QU39,freezer,7/20/2021
+ZFA-068,7/20/2021,Munida quadraspina,,3,,,,QU39,freezer,7/20/2021
+ZFA-069,7/20/2021,Euphausia pacifica,,5,,,9/27/2021,QU39,,7/20/2021
+ZFA-070,7/20/2021,Euphausia pacifica,,5,,,,QU39,,7/20/2021
+ZFA-071,7/20/2021,Euphausia pacifica,,5,,,8/18/2021,QU39,,7/20/2021
+ZFA-072,7/20/2021,Euphausia pacifica,,5,,,,QU39,isotopes,7/20/2021
+ZFA-073,7/20/2021,Euphausia pacifica,,5,,,,QU39,isotopes,7/20/2021
+ZFA-074,7/20/2021,chaetegnath,lg,8,,,8/10/2021,QU39,,7/20/2021
+ZFA-075,7/20/2021,Euphausia pacifica,,5,,,,QU39,,7/20/2021
+ZFA-076,7/20/2021,Eucalanus bungii,,9,,,9/27/2021,QU39,,7/20/2021
+ZFA-077,7/20/2021,Calanus spp. ,mostly adult female and C5,19,,,9/27/2021,QU39,,7/20/2021
+ZFA-078,7/21/2021,Beroe,,1,2 cm,,,QU39,in freezer,7/21/2021
+ZFA-079,7/21/2021,Eutonia indicans,,1,4 cm,,,QU39,in freezer,7/21/2021
+ZFA-080,7/21/2021,Clytia gregaria,,7,,,9/27/2021,QU39,,7/21/2021
+ZFA-081,7/21/2021,Paraeuchaeta elongata,,5,,,9/27/2021,QU39,,7/21/2021
+ZFA-082,7/21/2021,Tomopteris septentrionalis,,3,1 lg; 2 sm,,,QU39,,7/21/2021
+ZFA-083,7/21/2021,Eucalanus bungii,,30,,,8/10/2021,QU39,freezer,7/21/2021
+ZFA-084,7/21/2021,Pasiphaea pacifica,,2,sm,,9/27/2021,QU39,,7/21/2021
+ZFA-085,7/21/2021,Munida quadraspina,,3,,,,QU39,freezer,7/21/2021
+ZFA-086,7/21/2021,Limacina helicina,,20,,,8/10/2021,QU39,,7/21/2021
+ZFA-087,7/21/2021,Siphonophorae,1 adult; 7 gas floats,1; 7,,,,QU39,freezer,7/21/2021
+ZFA-088,7/21/2021,Paraeuchaeta elongata,w eggs,5,,,8/10/2021,QU39,,7/21/2021
+ZFA-089,7/21/2021,Calanus spp. ,C5/C6,40,,,9/27/2021,QU39,,7/21/2021
+ZFA-090,7/21/2021,Eucalanus bungii,C4/C5,40,,,,QU39,isotopes,7/21/2021
+ZFA-091,7/21/2021,Eucalanus bungii,C4/C5,40,,,,QU39,,7/21/2021
+ZFA-092,7/21/2021,Neocalanus plumchrus,C5,15,,,8/10/2021,QU39,,7/21/2021
+ZFA-093,7/21/2021,Neocalanus plumchrus,C5,15,,,8/10/2021,QU39,,7/21/2021
+ZFA-094,7/21/2021,Neocalanus plumchrus,C5,15,,,9/27/2021,QU39,,7/21/2021
+ZFA-095,7/21/2021,Neocalanus plumchrus,C5,15,,,9/27/2021,QU39,,7/21/2021
+ZFA-096,7/21/2021,Calanus spp. ,C5/C6,40,,,isotopes,QU39,isotopes,7/21/2021
+ZFA-097,7/21/2021,Metridia pacifica,C5/C6,50,,,8/10/2021,QU39,,7/21/2021
+ZFA-098,7/21/2021,Paraeuchaeta elongata,,5,,,8/10/2021,QU39,,7/21/2021
+ZFA-099,7/21/2021,Limacina helicina,,25,,,,QU39,,7/21/2021
+ZFA-100,7/21/2021,Tomopteris septentrionalis,,4,,,,QU39,freezer,7/21/2021
+ZFA-101,7/21/2021,Tomopteris septentrionalis,,4,,,8/10/2021,QU39,,7/21/2021
+ZFA-102,7/21/2021,Tomopteris pacificus,,3,,,8/10/2021,QU39,,7/21/2021
+ZFA-103,7/21/2021,Tomopteris septentrionalis,,4,,,,QU39,freezer,7/21/2021
+ZFA-104,7/21/2021,Tomopteris septentrionalis,,3,,,,QU39,freezer,7/21/2021
+ZFA-105,7/21/2021,Eucalanus bungii,,30,,,,QU39,isotopes,7/21/2021
+ZFA-106,7/21/2021,Calanus spp. ,,35,,,8/10/2021,QU39,,7/21/2021
+ZFA-107,7/21/2021,Cyphocaris challengeri,,4,,,9/27/2021,QU39,,7/21/2021
+ZFA-108,7/21/2021,Metridia pacifica,,30,,,9/27/2021,QU39,,7/21/2021
+ZFA-109,7/21/2021,Limacina helicina,,20,,,8/18/2021,QU39,,7/21/2021
+ZFA-110,7/21/2021,Limacina helicina,,20,,,isotopes,QU39,isotopes,7/21/2021
+ZFA-111,7/21/2021,Metridia pacifica,,25,,,9/27/2021,QU39,,7/21/2021
+ZFA-112,7/21/2021,Tomopteris pacificus,,3,,,,QU39,freezer,7/21/2021
+ZFA-113,7/21/2021,Clione limacina,,1,,,9/27/2021,QU39,,7/21/2021
+ZFA-114,7/21/2021,Cyphocaris challengeri,,a lot!,,,,QU39,,7/21/2021
+ZFA-115,7/21/2021,Hyperia,,2,,,9/27/2021,QU39,,7/21/2021
+ZFA-116,7/22/2021,Clione limacina,,1,,,,QU39,,7/22/2021
+ZFA-117,7/22/2021,Beroe,,1,,,9/27/2021,QU39,,7/22/2021
+ZFA-118,7/22/2021,Pasiphaea pacifica,,1,,,8/10/2021,QU39,,7/22/2021
+ZFA-119,7/22/2021,Paraeuchaeta elongata,w eggs,14,,,9/27/2021,QU39,,7/22/2021
+ZFA-120,7/22/2021,Paraeuchaeta elongata,"2 w eggs, 4 wo",6,,,isotopes,QU39,isotopes,7/22/2021
+ZFA-121,7/22/2021,Limacina helicina,,20,,,9/27/2021,QU39,,7/22/2021
+ZFA-122,7/22/2021,Limacina helicina,,25,,,isotopes,QU39,isotopes,7/22/2021
+ZFA-123,7/22/2021,Limacina helicina,,25,,,,QU39,,7/22/2021
+ZFA-124,7/22/2021,Clione limacina,,3,2-5 mm; 1 ~1cm,,8/18/2021,QU39,,7/22/2021
+ZFA-125.1,7/22/2021,Clione limacina,,1,~2 cm,,,QU39,isotopes,7/22/2021
+ZFA-125,7/22/2021,Eucalanus bungii,,30,,,,QU39,,7/22/2021
+ZFA-126,7/22/2021,Eucalanus bungii,,23,,,8/18/2021,QU39,,7/22/2021
+ZFA-127,7/22/2021,Parasagitta elegans,,5,,,9/27/2021,QU39,,7/22/2021
+ZFA-128,7/22/2021,Aegina citrea,,3,<1 cm,,,QU39,freezer,7/22/2021
+ZFA-129,7/22/2021,Scina spp.,,2,,,,QU39,freezer,7/22/2021
+ZFA-130,7/22/2021,Calanus spp. ,mostly female; some C5,28,,,8/10/2021,QU39,,7/22/2021
+ZFA-131,7/22/2021,Beroe,,1,1 cm,,,QU39,freezer,7/22/2021
+ZFA-132,7/22/2021,Aegina citrea,,4,a Calanus inside the jelly,,,QU39,freezer,7/22/2021
+ZFA-133,7/22/2021,Metridia pacifica,mostly female; some C5,52,,,8/10/2021,QU39,,7/22/2021
+ZFA-134,7/22/2021,Clytia gregaria,,20,,,,QU39,freezer,7/22/2021
+ZFA-135,7/22/2021,Paraeuchaeta elongata,One w/ internal eggs,6,One w/ internal eggs,,isotopes,QU39,isotopes,7/22/2021
+ZFA-136,7/22/2021,Limacina helicina,,40,,,,QU39,isotopes,7/22/2021
+ZFA-137,7/22/2021,Parasagitta elegans,,2,,,,QU39,,7/22/2021
+ZFA-138,7/22/2021,Aglantha,,2,,,,QU39,freezer,7/22/2021
+ZFA-139,7/22/2021,Pleurobrachia,,11,some small amphipods trapped,,,QU39,freezer,7/22/2021
+ZFA-140,7/22/2021,Scina spp.,,2,,,,QU39,freezer,7/22/2021
+ZFA-141,7/22/2021,Pleurobrachia,,5,5-7 mm,NM,9/27/2021,QU39,,7/22/2021
+ZFA-142,9/1/2021,Cyphocaris challengeri,,5,5-7 mm,NM,,QU39,isotopes,9/1/2021
+ZFA-143,9/1/2021,Cyphocaris challengeri,,5,5-7 mm,NM,,QU39,isotopes,9/1/2021
+ZFA-144,9/1/2021,Cyphocaris challengeri,,5,5-7 mm,NM,,QU39,isotopes,9/1/2021
+ZFA-145,9/1/2021,Cyphocaris challengeri,,5,5-7 mm,NM,,QU39,,9/1/2021
+ZFA-146,9/1/2021,Cyphocaris challengeri,,5,5-7 mm,NM,11/24/2021,QU39,,9/1/2021
+ZFA-147,9/1/2021,Munida quadraspina,,3,~10 mm,NM,,QU39,,9/1/2021
+ZFA-148,9/1/2021,Munida quadraspina,,3,~10 mm,NM,,QU39,,9/1/2021
+ZFA-149,9/1/2021,Munida quadraspina,,3,~10 mm,NM,,QU39,,9/1/2021
+ZFA-150,9/1/2021,Primno abyssalis,,4,~5-9 mm,NM,9/27/2021,QU39,,9/1/2021
+ZFA-151,9/1/2021,Primno abyssalis,,4,~5-9 mm,NM,9/15/2021,QU39,,9/1/2021
+ZFA-152,9/1/2021,Primno abyssalis,,4,~5-9 mm,NM,,QU39,,9/1/2021
+ZFA-153,9/1/2021,Primno abyssalis,,4,~5-9 mm,NM,,QU39,,9/1/2021
+ZFA-154,9/1/2021,Primno abyssalis,,4,~5-9 mm,NM,,QU39,isotopes,9/1/2021
+ZFA-155,9/1/2021,Limacina helicina,,25,~1.5-3.5 mm,NM,9/15/2021,QU39,,9/1/2021
+ZFA-156,9/1/2021,Limacina helicina,,25,~1.5-3.5 mm,NM,,QU39,isotopes,9/1/2021
+ZFA-157,9/1/2021,Paraeuchaeta elongata,C6 female w eggs,5,C6 female w eggs,NM,,QU39,isotopes,9/1/2021
+ZFA-158,9/1/2021,Eucalanus bungii,C4-C6,30,C4-C6,NM,9/27/2021,QU39,,9/1/2021
+ZFA-159,9/1/2021,Eucalanus bungii,C4-C6,30,C4-C6,NM,,QU39,isotopes,9/1/2021
+ZFA-160,9/1/2021,Pleurobrachia,,5,~8 mm,NM,,QU39,,9/1/2021
+ZFA-161,9/1/2021,Clytia gregaria,,15,,JF,,QU39,,9/1/2021
+ZFA-162,9/1/2021,Clytia gregaria,,16,,JF,9/27/2021,QU39,,9/1/2021
+ZFA-163,9/1/2021,Limacina helicina,,25,~1.5-3.5 mm,NM,,QU39,isotopes,9/1/2021
+ZFA-164,9/1/2021,Clione limacina,,1,~15 mm,NM,11/24/2021,QU39,,9/1/2021
+ZFA-165,9/1/2021,Clione limacina,,1,~15 mm,NM,9/27/2021,QU39,,9/1/2021
+ZFA-166,9/1/2021,Clione limacina,,1,~20 mm,NM,,QU39,isotopes,9/1/2021
+ZFA-167,9/1/2021,Hyperia,,3,~5-8 mm,NM,,QU39,,9/1/2021
+ZFA-168,9/1/2021,Pleurobrachia,,5,~10 mm,AR,,QU39,,9/1/2021
+ZFA-169,9/1/2021,Pleurobrachia,,5,~10 mm,AR,,QU39,,9/1/2021
+ZFA-170,9/1/2021,Paraeuchaeta elongata,C6 female w eggs,3,C6 female w eggs,AR,9/27/2021,QU39,,9/1/2021
+ZFA-171,9/1/2021,Themisto pacifica,,8,~4-5 mm female and males,NM,11/24/2021,QU39,,9/1/2021
+ZFA-172,9/1/2021,Themisto pacifica,,8,~4-5 mm female and males,NM,9/15/2021,QU39,,9/1/2021
+ZFA-173,9/1/2021,Beroe,,1,16 mm,NM/AR,,QU39,,9/1/2021
+ZFA-174,9/1/2021,Euphausia pacifica,,1,~20 mm,NM,,QU39,isotopes,9/1/2021
+ZFA-175,9/1/2021,Euphausia pacifica,,2,~15-18 mm,NM,9/27/2021,QU39,,9/1/2021
+ZFA-176,9/1/2021,Disconchoecia elegans,,50,Could be a mix of species,JF/AR,9/15/2021,QU39,,9/1/2021
+ZFA-177,9/1/2021,Pasiphaea pacifica,,3,~12-16 mm,NM,9/15/2021,QU39,,9/1/2021
+ZFA-178,9/1/2021,Pasiphaea pacifica,,3,~12-16 mm,NM,,QU39,,9/1/2021
+ZFA-179,9/1/2021,Tomopteris septentrionalis,,3,~10-13 mm,NM,2/21/2022,QU39,,9/1/2021
+ZFA-180,9/1/2021,Tomopteris septentrionalis,,3,~10-13 mm,NM,,QU39,,9/1/2021
+ZFA-181,9/1/2021,Tomopteris septentrionalis,,3,~10-13 mm,NM,,QU39,,9/1/2021
+ZFA-182,9/1/2021,Tomopteris pacificus,,2,~20-30 mm + tail,NM,,QU39,,9/1/2021
+ZFA-183,9/1/2021,Tomopteris pacificus,,2,~20-30 mm + tail,NM,,QU39,,9/1/2021
+ZFA-184,9/1/2021,Thysanoessa longipes,,1,~12 mm,NM,9/27/2021,QU39,,9/1/2021
+ZFA-185,9/1/2021,Eucalanus bungii,"C4, C5, C6",30,,AM/JF,,QU39,,9/1/2021
+ZFA-186,9/1/2021,Calanus spp. ,"C5, C6",30,,AM/AR,9/15/2021,QU39,,9/1/2021
+ZFA-187,9/1/2021,Calanus spp. ,"C5, C6",30,,NM,9/27/2021,QU39,,9/1/2021
+ZFA-188,9/1/2021,Metridia pacifica,"C5, C6",50,,NM,9/15/2021,QU39,,9/1/2021
+ZFA-189,9/1/2021,Calanus spp. ,"C4, C5, C6",30,,NM/AM,,QU39,isotopes,9/1/2021
+ZFA-190,9/2/2021,Euphausia pacifica,adults ,2,,AKM,9/27/2021,QU39,,9/2/2021
+ZFA-191,9/2/2021,Euphausia pacifica,adults ,2,,AKM,9/15/2021,QU39,,9/2/2021
+ZFA-192,9/2/2021,Thysanoessa longipes,,1,~10 mm,AKM,combined,QU39,,9/2/2021
+ZFA-193,9/2/2021,Paraeuchaeta elongata,w eggs,5,,AKM,9/15/2021,QU39,,9/2/2021
+ZFA-194,9/2/2021,Paraeuchaeta elongata,"3 w external eggs, 2 w internal eggs",5,,AKM,9/27/2021,QU39,,9/2/2021
+ZFA-195,9/2/2021,Clione limacina,,1,~10 mm,AKM,,QU39,,9/2/2021
+ZFA-196,9/2/2021,Pasiphaea pacifica,,1,~20 mm,AR/JF,11/24/2021,QU39,,9/2/2021
+ZFA-197,9/2/2021,Pasiphaea pacifica,,1,~20 mm,AR/JF,9/27/2021,QU39,,9/2/2021
+ZFA-198,9/2/2021,Munida quadraspina,,12,~10 mm,AR/JF,,QU39,,9/2/2021
+ZFA-199,9/2/2021,Limacina helicina,,20,~2 mm,AR/JF,9/27/2021,QU39,,9/2/2021
+ZFA-200,9/2/2021,Limacina helicina,,20,~2 mm,AR/JF,9/27/2021,QU39,,9/2/2021
+ZFA-201,9/2/2021,Primno abyssalis,,4,~5-9 mm,AR/JF,,QU39,isotopes,9/2/2021
+ZFA-202,9/2/2021,Primno abyssalis,,4,~5-9 mm,AR/JF,,QU39,isotopes,9/2/2021
+ZFA-203,9/2/2021,Primno abyssalis,,4,~5-9 mm,AR/JF,9/27/2021,QU39,,9/2/2021
+ZFA-204,9/2/2021,Themisto pacifica,,8,~3-5 mm,AR/JF,9/27/2021,QU39,,9/2/2021
+ZFA-205,9/2/2021,Cyphocaris challengeri,,5,~3-7 mm,AR/JF,9/27/2021,QU39,,9/2/2021
+ZFA-206,9/2/2021,Cyphocaris challengeri,,5,~5-7 mm,AR/JF,9/27/2021,QU39,,9/2/2021
+ZFA-207,9/2/2021,Pleurobrachia,,15,~10 mm,AR/JF,9/27/2021,QU39,,9/2/2021
+ZFA-208,9/2/2021,Hyperia,,2,,AKM,,QU39,,9/2/2021
+ZFA-209,9/2/2021,Scina spp.,,4,,AKM,,QU39,,9/2/2021
+ZFA-210,9/2/2021,Eucalanus bungii,"C4, C5, C6",30,,AR/JF,9/27/2021,QU39,,9/2/2021
+ZFA-211,9/2/2021,Beroe,,1,~16 mm,AR/JF,9/27/2021,QU39,,9/2/2021
+ZFA-212,9/2/2021,Rhynconerella,,1,~70 mm,JF,5/18/2022,QU39,,9/2/2021
+ZFA-213,9/2/2021,Calanus spp. ,"C5, C6",30,,NM,9/27/2021,QU39,,9/2/2021
+ZFA-214,9/2/2021,Eucalanus bungii,"C4, C5, C6",30,,AR/JF,9/27/2021,QU39,,9/2/2021
+ZFA-215,9/2/2021,Parasagitta elegans,,14,~10 mm,AR/JF,,QU39,,9/2/2021
+ZFA-216,9/2/2021,Metridia pacifica,"female, C5",50,,AKM,9/27/2021,QU39,,9/2/2021
+ZFA-217,11/2/2021,Cyphocaris challengeri,,3,~5 mm,AKM,11/24/2021,QU39,,11/2/2021
+ZFA-218,11/2/2021,Larvaceans,,30,,AKM,11/24/2021,QU39,,11/2/2021
+ZFA-219,11/2/2021,Calanus spp. ,C4-C5-female,16,,AKM,11/24/2021,QU39,,11/2/2021
+ZFA-220,11/3/2021,Euphausia pacifica,,2,~12-18 mm,NM,11/24/2021,QU39,,11/3/2021
+ZFA-221,11/3/2021,Thysanoessa spinifera,,2,~20 mm,NM,12/7/2021,QU39,,11/3/2021
+ZFA-222,11/3/2021,Cyphocaris challengeri,,5,3-6 mm,AKM,6/1/2022,QU39,,11/3/2021
+ZFA-223,11/3/2021,Cyphocaris challengeri,,6,3-6 mm,AKM,,QU39,,11/3/2021
+ZFA-224,11/3/2021,Larvaceans,,17,,AKM,combined,QU39,,11/3/2021
+ZFA-225,11/3/2021,Euphausia pacifica,,1,~10 mm,AKM,6/1/2022,QU39,,11/3/2021
+ZFA-226,11/3/2021,Thysanoessa longipes,F6-juv,2,,AKM,12/7/2021,QU39,,11/3/2021
+ZFA-227,11/3/2021,Thysanoessa longipes,juv,1,juv/~10 mm,AKM,combined,QU39,,11/3/2021
+ZFA-228,11/3/2021,Themisto pacifica,,7,2-4 mm,AKM,11/24/2021,QU39,,11/3/2021
+ZFA-229,11/3/2021,Calanus spp. ,C3-C5-fem,35,,NM+AKM,,QU39,isotopes,11/3/2021
+ZFA-230,11/3/2021,Ostracods,,36,,AKM,11/24/2021,QU39,,11/3/2021
+ZFA-231,11/3/2021,Calanus spp. ,C4-C5-female,19,,AKM,12/7/2021,QU39,,11/3/2021
+ZFA-232,11/3/2021,Ostracods,,15,,AKM,combined,QU39,,11/3/2021
+ZFA-233,11/3/2021,Limacina helicina,,9,,AKM,11/24/2021,QU39,,11/3/2021
+ZFA-234,11/3/2021,Paraeuchaeta elongata,,4,,AKM,11/24/2021,QU39,,11/3/2021
+ZFA-235,11/3/2021,Calanus spp. ,C3-C5-fem,7,,AKM,combined,QU39,,11/3/2021
+ZFA-236,11/4/2021,Limacina helicina,,4, ,AKM,combined,QU39,,11/4/2021
+ZFA-237,11/4/2021,Larvaceans,,10,,AKM,combined,QU39,,11/4/2021
+ZFA-238,11/4/2021,Pleurobrachia,,many,3-5 mm,AKM,12/7/2021,QU39,,11/4/2021
+ZFA-239,11/4/2021,Pleurobrachia w parasites,,8,3-5 mm,AKM,,QU39,,11/4/2021
+ZFA-240,1/12/2022,Clione limacina,,3,12-18 mm,AKM,5/9/2022,ZS01,,1/12/2022
+ZFA-241,1/12/2022,Cyphocaris challengeri,,3,6-8 mm,JLM,3/21/2022,ZS01,,1/12/2022
+ZFA-242,1/12/2022,Cyphocaris challengeri,,3,6-8 mm,JLM,,ZS01,isotopes,1/12/2022
+ZFA-243,1/12/2022,Cyphocaris challengeri,,4,4-8 mm,JLM,,ZS01,isotopes,1/12/2022
+ZFA-244,1/12/2022,Cyphocaris challengeri,,5,4-8 mm,JLM,2/21/2022,ZS01,,1/12/2022
+ZFA-245,1/12/2022,Cyphocaris challengeri,,5,4-8 mm,JLM,,ZS01,isotopes,1/12/2022
+ZFA-246,1/12/2022,Clione limacina,,3,12-15 mm,AKM,,ZS01,,1/12/2022
+ZFA-247,1/12/2022,Clione limacina,,4,6-10 mm,AKM,,ZS01,isotopes,1/12/2022
+ZFA-248,1/12/2022,Thysanoessa longipes,,2,12-14 mm,AKM,5/9/2022,ZS01,,1/12/2022
+ZFA-249,1/12/2022,Euphausia pacifica,,3,10-14 mm,AKM,2/21/2022,ZS01,,1/12/2022
+ZFA-250,1/12/2022,Euphausia pacifica,,3,10-14 mm,AKM,5/9/2022,ZS01,,1/12/2022
+ZFA-251,1/12/2022,Thysanoessa spinifera,,1,~15 mm,AKM,,ZS01,,1/12/2022
+ZFA-252,1/12/2022,Euphausia pacifica,,4,10-12 mm,AKM,isotopes,ZS01,isotopes,1/12/2022
+ZFA-253,1/12/2022,Paraeuchaeta elongata,female with eggs,4,,AKM,5/9/2022,ZS01,,1/12/2022
+ZFA-254,1/12/2022,Metridia pacifica,"C4, C6",55,,AKM,,ZS01,,1/12/2022
+ZFA-255,1/12/2022,Paraeuchaeta elongata,"C5, females",5,,AKM,3/21/2022,ZS01,,1/12/2022
+ZFA-256,1/12/2022,Cyphocaris challengeri,female with eggs,3,,AKM,5/9/2022,ZS01,,1/12/2022
+ZFA-257,1/12/2022,chaetegnath,,8,20-30,AKM,3/21/2022,ZS01,,1/12/2022
+ZFA-258,1/12/2022,Limacina helicina,,22,very small,AKM,,ZS01,isotopes,1/12/2022
+ZFA-259,1/13/2022,Euphausia pacifica,,3,13-Oct,AKM,,QU39,isotopes,1/13/2022
+ZFA-260,1/13/2022,Euphausia pacifica,,3,12-Oct,AKM,5/9/2022,QU39,,1/13/2022
+ZFA-261,1/13/2022,Thysanoessa spinifera,,1,~20,AKM,,QU39,,1/13/2022
+ZFA-262,1/13/2022,Thysanoessa spinifera,,1,~20,AKM,,QU39,,1/13/2022
+ZFA-263,1/13/2022,Thysanoessa spinifera,,1,~18,AKM,,QU39,,1/13/2022
+ZFA-264,1/13/2022,Themisto pacifica,,4,7-Jun,AKM,,QU39,isotopes,1/13/2022
+ZFA-265,1/13/2022,Themisto pacifica,,8,5-Mar,AKM,5/9/2022,QU39,,1/13/2022
+ZFA-266,1/13/2022,Clione limacina,,4,12-Oct,AKM,3/21/2022,QU39,,1/13/2022
+ZFA-267,1/13/2022,Clione limacina,,5,10-May,AKM,,QU39,isotopes,1/13/2022
+ZFA-268,1/13/2022,chaetegnath,,9,~20,AKM,,QU39,,1/13/2022
+ZFA-269,1/13/2022,Limacina helicina,,20,~1 mm,AKM,5/9/2022,QU39,,1/13/2022
+ZFA-270,1/13/2022,chaetegnath,,10,~25 mm,AKM,,QU39,,1/13/2022
+ZFA-271,1/13/2022,chaetegnath,,10,~20 mm,AKM,,QU39,,1/13/2022
+ZFA-272,1/14/2022,Euphausia pacifica,,18,10-12 mm,AKM,,QU3,isotopes,1/14/2022
+ZFA-273,1/14/2022,Thysanoessa spinifera - isotopes,,2,,Isotopes Only - didn't love condition,,QU3,,1/14/2022
+ZFA-274,1/14/2022,Themisto pacifica,,9,5-Feb,AKM,2/21/2022,QU3,,1/14/2022
+ZFA-275,1/14/2022,Themisto pacifica,,12,5-Feb,AKM,3/21/2022,QU3,,1/14/2022
+ZFA-276,1/14/2022,Metridia pacifica,"C5, C6",50,,JLM,3/21/2022,QU3,,1/14/2022
+ZFA-277,1/14/2022,Limacina helicina,,28,very small,AKM,3/21/2022,QU3,,1/14/2022
+ZFA-278,1/14/2022,Metridia pacifica,"C5, C6",62,,AKM,,QU3,,1/14/2022
+ZFA-279,1/14/2022,Calanus spp. ,C5,46,~2 mm,AKM,3/21/2022,QU3,,1/14/2022
+ZFA-280,1/14/2022,Metridia pacifica,"C5, C6 females",108,,AKM,5/9/2022,QU3,,1/14/2022
+ZFA-281,1/12/2022,Scina spp.,,2,6,JLM,2/21/2022,ZS01,,1/12/2022
+ZFA-282,1/12/2022,Cyphocaris challengeri,,many,4-8 mm,JLM,,ZS01,,1/12/2022
+ZFA-283,1/12/2022,Tomopteris,,2,12,JLM,,ZS01,,1/12/2022
+ZFA-284,1/12/2022,Tomopteris,,2,12,JLM,,ZS01,,1/12/2022
+ZFA-285,1/12/2022,Tomopteris,,2,12,JLM,,ZS01,,1/12/2022
+ZFA-286,1/12/2022,Eucalanus bungii,"C5, C6",30,,JLM,5/9/2022,ZS01,,1/12/2022
+ZFA-287,1/12/2022,Eucalanus bungii,"C5, C6",30,,JLM,3/21/2022,ZS01,,1/12/2022
+ZFA-288,1/12/2022,Eucalanus bungii,"C5, C6",30,,JLM,,ZS01,isotopes,1/12/2022
+ZFA-289,1/12/2022,Calanus spp. ,C4-females,30,,JLM,,ZS01,isotopes,1/12/2022
+ZFA-290,1/12/2022,Calanus spp. ,,30,,JLM,5/9/2022,ZS01,,1/12/2022
+ZFA-291,1/12/2022,Neocalanus plumchrus,"C5, C6 fem, male",11,,JLM,,ZS01,,1/12/2022
+ZFA-292.1,1/12/2022,Paraeuchaeta elongata,female with eggs,5,,JLM,,ZS01,isotopes,1/12/2022
+ZFA-293,1/12/2022,Tomopteris,,~20,,JLM,,ZS01,,1/12/2022
+ZFA-294,1/13/2022,Euphysa japonica,,1,12,JLM,,QU39,,1/13/2022
+ZFA-295,1/13/2022,Neocalanus plumchrus,"C5, C6 fem, male",10,5,JLM,3/21/2022,QU39,,1/13/2022
+ZFA-296,1/13/2022,Neocalanus plumchrus,"C5, C6 fem, male",11,,JLM,5/9/2022,QU39,,1/13/2022
+ZFA-297,1/13/2022,Aglantha,,3,10-Apr,JLM,,QU39,,1/13/2022
+ZFA-298,1/13/2022,Calanus spp. ,C5,30,,JLM,,QU39,,1/13/2022
+ZFA-299,1/13/2022,Primno abyssalis,,1,5,JLM,,QU39,,1/13/2022
+ZFA-300,1/13/2022,Paraeuchaeta elongata,"C5, females",5,,JLM,,QU39,isotopes,1/13/2022
+ZFA-301,1/13/2022,Paraeuchaeta elongata,"C5, females",5,,JLM,2/21/2022,QU39,,1/13/2022
+ZFA-302,1/13/2022,Calanus spp. ,"C5, C6 fem, male",30,,JLM,,QU39,,1/13/2022
+ZFA-303,1/13/2022,Calanus spp. ,"C5, C6 fem, male",30,,JLM,2/21/2022,QU39,,1/13/2022
+ZFA-304,1/13/2022,Neocalanus plumchrus,"C5, females",10,,JLM,2/21/2022,QU39,,1/13/2022
+ZFA-305,1/13/2022,Neocalanus plumchrus,"C5, C6 fem, male",10,,JLM,,QU39,,1/13/2022
+ZFA-306,1/13/2022,Eucalanus bungii,"C4, C5",30,,JLM,2/21/2022,QU39,,1/13/2022
+ZFA-307,1/13/2022,Eucalanus bungii,"C4, C5",30,,JLM,,QU39,isotopes,1/13/2022
+ZFA-308,1/13/2022,Metridia pacifica,C4-C6,55,,AKM,2/21/2022,QU39,,1/13/2022
+ZFA-309,1/13/2022,Themisto pacifica,,4,1 large (10 mm); 3 tiny (2 mm),JLM,3/21/2022,QU39,,1/13/2022
+ZFA-310,1/13/2022,Disconchoecia small,,51,2 mm,JLM,,QU39,,1/13/2022
+ZFA-311,1/13/2022,Disconchoecia large,,25,5 mm,JLM,,QU39,,1/13/2022
+ZFA-312,1/13/2022,Metridia pacifica,,40,,AKM,,QU39,,1/13/2022
+ZFA-313,1/13/2022,Limacina helicina,,25,1-2 mm,JLM,2/21/2022,QU39,,1/13/2022
+ZFA-314,1/13/2022,Scina spp.,,3,6-Mar,AKM,,QU39,,1/13/2022
+ZFA-315,1/13/2022,Aglantha,,3,10,JLM,,QU39,,1/13/2022
+ZFA-316,3/30/2022,Clione limacina,,1,,,5/9/2022,QU39,,3/30/2022
+ZFA-317,3/30/2022,Euphausia pacifica,,3,,,5/9/2022,QU39,,4/1/2022
+ZFA-318,3/30/2022,Limacina helicina,,20,,,5/9/2022,QU39,,4/1/2022
+ZFA-319,3/30/2022,Eucalanus bungii,,14,,,,QU39,,4/1/2022
+ZFA-320,3/30/2022,Cyphocaris challengeri,,4,,,isotopes,QU39,isotopes,4/1/2022
+ZFA-321,3/30/2022,Scina spp.,,1,,,,QU39,,4/1/2022
+ZFA-322,3/30/2022,Cyphocaris challengeri,female with eggs,1,,,isotopes,QU39,isotopes,4/1/2022
+ZFA-323,3/30/2022,Calanus spp. ,"C5, females",27,,,5/9/2022,QU39,,4/1/2022
+ZFA-324,3/30/2022,Metridia pacifica,,50,,,5/9/2022,QU39,,4/1/2022
+ZFA-325,3/30/2022,Pasiphaea pacifica,,1,,,,QU39,,4/1/2022
+ZFA-326,3/30/2022,Eucalanus bungii,,26,,,5/9/2022,QU39,,4/1/2022
+ZFA-327,3/30/2022,Clione limacina,,1,,,,QU39,isotopes,4/1/2022
+ZFA-328,3/30/2022,Themisto pacifica,,3,,,5/9/2022,QU39,,4/1/2022
+ZFA-329,3/30/2022,Paraeuchaeta elongata,,5,,,5/9/2022,QU39,,4/1/2022
+ZFA-330,3/30/2022,Calanus spp. ,,30,,,,QU39,isotopes,4/1/2022
+ZFA-331,3/30/2022,Themisto pacifica,,5,,,,QU39,,4/1/2022
+ZFA-332,3/30/2022,Primno abyssalis,,1,,,,QU39,,4/1/2022
+ZFA-333,3/30/2022,Eucalanus bungii,,33,,,,QU39,,4/1/2022
+ZFA-334,3/30/2022,Ostracods,,20,,,,QU39,,4/1/2022
+ZFA-335,3/30/2022,Limacina helicina,,7,,,5/9/2022,QU39,,4/1/2022
+ZFA-336,3/30/2022,Eucalanus bungii,,28,,,,QU39,,4/1/2022
+ZFA-337,3/30/2022,Calanus spp. ,,12,,,,QU39,,4/1/2022
+ZFA-338,3/30/2022,Clione limacina,,3,,,,QU39,,4/6/2022
+ZFA-339,3/30/2022,Eucalanus bungii,,30,,,,QU39,,4/6/2022
+ZFA-340,3/30/2022,Paraeuchaeta elongata,female no eggs,5,,,,QU39,,4/6/2022
+ZFA-341,3/30/2022,Cyphocaris challengeri,,2,,,5/9/2022,QU39,,4/6/2022
+ZFA-342,3/30/2022,Cyphocaris challengeri,female with eggs,1,,,,QU39,,4/6/2022
+ZFA-343,3/30/2022,Tomopteris,,6,small,not best condition,,QU39,,4/6/2022
+ZFA-344,3/30/2022,chaetegnath,,2,,one ripped in half,,QU39,,4/6/2022
+ZFA-345,3/30/2022,Calanus spp. ,"C5, females",30,,,,QU39,,4/6/2022
+ZFA-346,3/30/2022,Metridia pacifica,,50,,,,QU39,,4/6/2022
+ZFA-347,3/30/2022,Scina spp.,,1,2-3 mm,,,QU39,,4/6/2022
+ZFA-348,3/30/2022,Ostracods,,40,"4 lg, rest small",,,QU39,,4/6/2022
+ZFA-349,3/30/2022,Ostracods,,50,"2 lg, rest small",,,QU39,,5/2/2022
+ZFA-350A,3/30/2022,Cyphocaris challengeri,female with eggs,3,,,run,QU39,,5/2/2022
+ZFA-350B,3/30/2022,Cyphocaris challengeri,female with eggs,3,,,run,QU39,,5/2/2022
+ZFA-351,3/30/2022,Cyphocaris challengeri,,5,,,,QU39,,5/2/2022
+ZFA-352,3/30/2022,Calanus spp. ,all female,30,,,,QU39,,5/2/2022
+ZFA-353,3/30/2022,Tomopteris,,7,small,,,QU39,,5/2/2022
+ZFA-354,3/30/2022,chaetegnath,,2,,,,QU39,,5/2/2022
+ZFA-355,3/30/2022,Clione limacina,,1,5 mm,,,QU39,isotopes,5/2/2022
+ZFA-356,3/30/2022,Scina spp.,,5, 3-6 mm,,,QU39,,5/2/2022
+ZFA-357,3/30/2022,Primno abyssalis,,3,3-6 mm,,,QU39,,5/2/2022
+ZFA-358,3/30/2022,Themisto pacifica,,2,,,,QU39,isotopes,5/2/2022
+ZFA-359,3/30/2022,Paraeuchaeta elongata,"1 female, 1 C5",2,,,,QU39,,5/2/2022
+ZFA-360,3/30/2022,Calanus spp. ,all C5,16,,,,QU39,,5/2/2022
+ZFA-361,3/30/2022,Euphausia pacifica,female,1,~12-14 mm,,,QU39,,5/18/2022
+ZFA-362,3/30/2022,Beroe,,1,~10 mm some damage,,,QU39,,5/18/2022
+ZFA-363,3/30/2022,Cyphocaris challengeri,w internal eggs,2,,,,QU39,,5/18/2022
+ZFA-364,3/30/2022,Cyphocaris challengeri,,9,,,,QU39,,5/18/2022
+ZFA-365,3/30/2022,Paraeuchaeta elongata,female w eggs,3,,,,QU39,,5/18/2022
+ZFA-366,3/30/2022,Paraeuchaeta elongata,,2,,,,QU39,,5/18/2022
+ZFA-367,3/30/2022,Clione limacina,,1,~3 mm,,isotopes,QU39,isotopes,5/18/2022
+ZFA-368,3/30/2022,Eucalanus bungii,,14,,,isotopes,QU39,isotopes,5/18/2022
+ZFA-369,3/30/2022,Eucalanus bungii,,14,,,isotopes,QU39,,5/18/2022
+ZFA-370,3/30/2022,Primno abyssalis,,2,"1 tiny, 1 large",,,QU39,,5/18/2022
+ZFA-371,3/30/2022,Themisto pacifica,,7,2-4 mm,,,QU39,,5/18/2022
+ZFA-372,3/30/2022,Scina spp.,,2,"2, 4",,,QU39,,5/18/2022
+ZFA-373,3/30/2022,Calanus spp. ,all male,8,,,,QU39,,5/18/2022
+ZFA-374,3/30/2022,Calanus spp. ,all C5,19,,,,QU39,,5/18/2022
+ZFA-375,3/30/2022,Calanus spp. ,all female,7,,,,QU39,,5/18/2022
+ZFA-376,3/30/2022,Neocalanus plumchrus,,3,C5,,,QU39,,5/18/2022
+ZFA-377,3/30/2022,Limacina helicina,,3,< 1 mm,,,QU39,,5/18/2022
+ZFA-378,3/30/2022,Tomopteris,,4,6-15 mm,,,QU39,,5/18/2022
+ZFA-379,3/30/2022,chaetegnath,,1,~15 mm,,,QU39,,5/18/2022
+ZFA-380,3/30/2022,Metridia pacifica,,50,,,,QU39,,5/20/2022
+ZFA-381,3/30/2022,Eucalanus bungii,,30,,,,QU39,,5/20/2022
+ZFA-382,3/30/2022,Euphausia pacifica,female,1,~15 mm,,,QU39,,5/20/2022
+ZFA-383,3/30/2022,Primno abyssalis,,3,,,,QU39,,5/20/2022
+ZFA-384,3/30/2022,Pasiphaea pacifica,,1,~12 mm,,,QU39,isotopes,5/20/2022
+ZFA-385,3/30/2022,Themisto pacifica,,7,2-4 mm,,isotopes,QU39,,5/20/2022
+ZFA-386,3/30/2022,Scina spp.,,3,,,,QU39,,5/20/2022
+ZFA-387,3/30/2022,Clione limacina,,3,,,,QU39,,5/20/2022
+ZFA-388,3/30/2022,Limacina helicina,,18,,,,QU39,,5/20/2022
+ZFA-389,3/30/2022,chaetegnath,,2,,,,QU39,,5/20/2022
+ZFA-390,3/30/2022,Tomopteris,,9,,,,QU39,,5/20/2022
+ZFA-391,3/30/2022,Paraeuchaeta elongata,2 male,3,,,,QU39,,5/20/2022
+ZFA-392,3/30/2022,Calanus spp. ,all C5,18,,,,QU39,,5/20/2022
+ZFA-393,3/30/2022,Calanus spp. ,all male,7,,,,QU39,,5/20/2022
+ZFA-394,3/30/2022,Calanus spp. ,all female,17,,,,QU39,,5/20/2022
+ZFA-395,3/30/2022,Metridia pacifica,,13,,,isotopes,QU39,isotopes,5/20/2022
+ZFA-396,3/30/2022,Paraeuchaeta elongata,,8,,,isotopes,QU39,isotopes,5/20/2022
+ZFA-397,3/30/2022,Cyphocaris challengeri,,4,,,isotopes,QU39,isotopes,5/20/2022
+ZFA-398,3/30/2022,Euphausia pacifica,,2,,,,QU39,,5/24/2022
+ZFA-399,3/30/2022,Limacina helicina,,30,,,,QU39,,5/24/2022
+ZFA-400,3/30/2022,Limacina helicina,,18,,,isotopes,QU39,isotopes,5/24/2022
+ZFA-401,3/30/2022,Metridia pacifica,,24,,,,QU39,isotopes,5/24/2022
+ZFA-402,3/30/2022,Calanus spp. ,all C5,14,,,,QU39,,5/24/2022
+ZFA-403,3/30/2022,Calanus spp. ,all male,6,,,,QU39,,5/24/2022
+ZFA-404,3/30/2022,Pasiphaea pacifica,10-15 mm,3,,,,QU39,,5/24/2022
+ZFA-405,3/30/2022,Cyphocaris challengeri,one w internal eggs,3,,,,QU39,,5/24/2022
+ZFA-406,3/30/2022,Themisto pacifica,,2,,,,QU39,isotopes,5/24/2022
+ZFA-407,3/30/2022,Clione limacina,,2,"3, 7 mm",,isotopes,QU39,isotopes,5/24/2022
+ZFA-408,3/30/2022,Tomopteris,,4,,,,QU39,,5/24/2022
+ZFA-409,3/30/2022,Ostracods,,25,,,,QU39,,5/24/2022
+ZFA-410,3/30/2022,Calanus spp. ,,20,,,isotopes,QU39,isotopes,5/24/2022
+ZFA-411,3/30/2022,March paraeuchaeta eggs,,1 set,,,isotopes,QU39,isotopes,
+ZFA-412,7/5/2023,Euphausia pacifica,juveniles,7,,,,,,
+ZFA-413,7/5/2023,Euphausia pacifica,juveniles,8,,,,,,
+ZFA-414,7/5/2023,Euphausia pacifica,juveniles,8,,,,,,
+ZFA-415,7/5/2023,Euphausia pacifica,juveniles,5,,,,,,
+ZFA-416,7/5/2023,Octopoda,,1,,,,,,

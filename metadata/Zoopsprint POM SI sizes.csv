@@ -1,0 +1,46 @@
+Sample,Pore.Size,note,Date,Site.ID,Depth,Vol.mL
+QF8805,0.7,0.7 um size frac - on 47 mm diameter filter,2022-03-30,QU39,5,10000
+QF8608,20,20 um size frac,2022-03-30,QU39,5,10000
+QF8609,3,3 um size frac,2022-03-30,QU39,5,10000
+QF8734,0.7,0.7 um size frac - on 47 mm diameter filter,2022-01-12,QU3,5,10000
+QF8568,20,20 um size frac,2022-01-12,QU3,5,10000
+QF8569,3,3 um size frac,2022-01-12,QU3,5,10000
+QF8738,0.7,0.7 um size frac - on 47 mm diameter filter,2022-01-13,QU39,5,13120
+QF8584,20,20 um size frac,2022-01-13,QU39,5,13120
+QF8585,3,3 um size frac,2022-01-13,QU39,5,13120
+QF8742,0.7,0.7 um size frac - on 47 mm diameter filter,2022-01-14,QU3,5,12170
+QF8588,20,20 um size frac,2022-01-14,QU3,5,12170
+QF8589,3,3 um size frac,2022-01-14,QU3,5,12170
+QF8801,0.7,0.7 um size frac - on 47 mm diameter filter,2022-01-15,QU39,5,15940
+QF8600,20,20 um size frac,2022-01-15,QU39,5,15940
+QF8601,3,3 um size frac,2022-01-15,QU39,5,15940
+QF8570,20,20 um size frac,2021-11-02,QU3,5,10000
+QF8571,3,3 um size frac,2021-11-02,QU3,5,10000
+QF8724,0.7,0.7 um size frac - on 47 mm diameter filter,2021-11-02,QU3,5,10000
+QF8572,20,20 um size frac,2021-11-03,QU3,5,10000
+QF8573,3,3 um size frac,2021-11-03,QU3,5,10000
+QF8728,0.7,0.7 um size frac - on 47 mm diameter filter,2021-11-03,QU3,5,10000
+QF8546,20,20 um size frac,2021-09-01,QU39,5,10000
+QF8547,3,3 um size frac,2021-09-01,QU39,5,10000
+QF8706,0.7,0.7 um size frac - on 47 mm diameter filter,2021-09-01,QU39,5,10000
+QF8558,20,20 um size frac,2021-09-02,QU39,5,8900
+QF8559,3,3 um size frac,2021-09-02,QU39,5,8900
+QF8720,0.7,0.7 um size frac - on 47 mm diameter filter,2021-09-02,QU39,5,8900
+QF8510,20,20 um size frac,2021-07-20,QU39,5,8000
+QF8511,3,3 um size frac,2021-07-20,QU39,5,8000
+QF8700,0.7,0.7 um size frac - on 47 mm diameter filter,2021-07-20,QU39,5,8000
+QF8522,20,20 um size frac,2021-07-21,QU39,5,8000
+QF8523,3,3 um size frac,2021-07-21,QU39,5,8000
+QF8702,0.7,0.7 um size frac - on 47 mm diameter filter,2021-07-21,QU39,5,8000
+QF8534,20,20 _m,2021-07-22,QU39,5,11360
+QF8535,3,3 _m,2021-07-22,QU39,5,11360
+QF8704,0.7,0.7 _m,2021-07-22,QU39,5,11360
+QF7281,3,3 um size frac,2021-05-18,QU39,5,6000
+QF7282,20,20 um size frac,2021-05-18,QU39,5,6000
+QF6273,0.7,0.7 um size frac - on 47 mm diameter filter,2021-05-18,QU39,5,6000
+QF7293,20,20 um size frac,2021-05-19,QU39,5,6000
+QF7294,3,3 um size frac,2021-05-19,QU39,5,6000
+QF6277,0.7,0.7 um size frac - on 47 mm diameter filter,2021-05-19,QU39,5,6000
+QF7801,20,20 um size frac,2021-05-20,QU39,5,5650
+QF7802,3,3 um size frac,2021-05-20,QU39,5,5650
+QF6281,0.7,0.7 um size frac - on 47 mm diameter filter,2021-05-20,QU39,5,5650
