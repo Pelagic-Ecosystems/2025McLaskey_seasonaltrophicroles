@@ -4,6 +4,7 @@ library(vegan)
 library(Polychrome)
 library(gmodels)
 library(adespatial)
+library(oce) 
 
 
 # Load full FA dataset 
@@ -171,7 +172,9 @@ for(i in 1:nrow(zoopsprintData)){
                       zoopsprintData$C18.1n.7_PERCENT[i], 
                       zoopsprintData$C18.1n.9c_PERCENT[i], 
                       zoopsprintData$C20.1n.9_PERCENT[i],
+                      zoopsprintData$C20.1n.11_PERCENT[i],
                       zoopsprintData$C22.1n.9_PERCENT[i],
+                      zoopsprintData$C22.1n.11_PERCENT[i],
                       zoopsprintData$C24.1n.9_PERCENT[i],na.rm=TRUE)
 }
 zoopsprintData$percent.MUFA <- percent.MUFA
@@ -179,13 +182,17 @@ zoopsprintData$percent.MUFA <- percent.MUFA
 
 percent.PUFA <- vector(length=nrow(zoopsprintData))
 for(i in 1:nrow(zoopsprintData)){
-  percent.PUFA[i]=sum(zoopsprintData$C18.2n.6c_PERCENT[i], 
+  percent.PUFA[i]=sum(zoopsprintData$C16.2n.4_PERCENT[i],
+                      zoopsprintData$C16.3n.4_PERCENT[i],
+                      zoopsprintData$C16.4n.1_PERCENT[i],
+                      zoopsprintData$C18.2n.6c_PERCENT[i], 
                       zoopsprintData$C18.3n.3_PERCENT[i], 
                       zoopsprintData$C18.3n.6_PERCENT[i], 
                       zoopsprintData$C18.4n.3_PERCENT[i],
-                      zoopsprintData$Diatom.III_PERCENT[i],
-                      zoopsprintData$C18.1n.12_PERCENT[i], 
+                      zoopsprintData$C20.2n.6_PERCENT[i], 
                       zoopsprintData$C20.3n.3_PERCENT[i], 
+                      zoopsprintData$C20.3n.6_PERCENT[i], 
+                      zoopsprintData$C20.4n.3_PERCENT[i], 
                       zoopsprintData$C20.4n.6_PERCENT[i], 
                       zoopsprintData$C20.5n.3_PERCENT[i],
                       zoopsprintData$C22.2n.6_PERCENT[i], 
@@ -205,10 +212,7 @@ zoopsprintData$PUFA.SFA <- zoopsprintData$percent.PUFA/zoopsprintData$percent.SF
 
 percent.n3_PUFA <- vector(length=nrow(zoopsprintData))
 for(i in 1:nrow(zoopsprintData)){
-  percent.n3_PUFA[i]=sum(zoopsprintData$C16.2n.4_PERCENT[i],
-                         zoopsprintData$C16.3n.4_PERCENT[i],
-                         zoopsprintData$C16.4n.1_PERCENT[i],
-                         zoopsprintData$C18.3n.3_PERCENT[i], 
+  percent.n3_PUFA[i]=sum(zoopsprintData$C18.3n.3_PERCENT[i], 
                          zoopsprintData$C18.4n.3_PERCENT[i],
                          zoopsprintData$C20.3n.3_PERCENT[i], 
                          zoopsprintData$C20.4n.3_PERCENT[i], 
@@ -292,7 +296,7 @@ zsAll <- zsAll %>% select(-file, -Tube.ID, -Vol..mL., -sample.type, -Notes,
                           -Run.Date, -Sample, -PropID)
 zsAll <- zsAll %>% rename(Line.Out.Depth = Depth, 
                           Pore.Size = Size)
- # write.csv(zsAll, "zoopsprintData all 2025-03-17.csv", row.names = F)
+ # write.csv(zsAll, "zoopsprintData all 2025-04-24.csv", row.names = F)
 
 
 
@@ -406,10 +410,61 @@ SI.combined$Month[SI.combined$Month==1] <- 13
 SI.combined$Month[SI.combined$Month==3] <- 15
 
 
-SI.combined.nonacid <- SI.combined %>% filter(Acidified == "Non") %>% 
+
+# I need to split out POM samples so I can use acidified 13C 
+
+SI.combined.POM <- SI.combined %>% filter(Species == "POM") %>% 
+  select(Sample, Date, Species, Pore.Size, delta13c, delta15n, percent.C, percent.N, Acidified, Month, Volume..ml.)
+
+
+
+POMSourcesSI_long <- pivot_wider(SI.combined.POM, names_from = Acidified, values_from = c(delta15n, delta13c, percent.C, percent.N))
+
+
+# I don't find true=acidified and false=not acidified to be very helpful. Change col names 
+# CHECK TO MAKE SURE COLS ARE STILL IN SAME ORDER
+colnames(POMSourcesSI_long)[7:14]<- c("delta15n.notacid", "delta15n.acidified","delta13c.notacid",
+                                      "delta13c.acidified",  "percentC.notacid", "percentC.acidified", "percentN.notacid",
+                                      "percentN.acidified")
+
+
+# Calculate C:N 
+POMSourcesSI_long <- POMSourcesSI_long %>% mutate(C_N =  ((percentC.notacid*12.01) / (percentN.notacid*14.007)) )
+
+
+# Looking at acidified vs not 
+ggplot(POMSourcesSI_long, aes(x=delta13c.notacid, y=delta13c.acidified, 
+                              color=as.factor(Month), shape = as.factor(Pore.Size))) + 
+  geom_point() + geom_abline(slope=1, intercept = 0) + theme_bw()
+
+SI.combined.POM$Pore.Size.Month <- paste(SI.combined.POM$Pore.Size, SI.combined.POM$Month, sep = ".")
+ggplot(SI.combined.POM, aes(x=as.factor(Pore.Size.Month), y=delta13c, 
+                              fill=as.factor(Acidified))) + 
+  geom_boxplot() + theme_bw()
+
+
+summary(lm(POMSourcesSI_long$delta13c.acidified ~ POMSourcesSI_long$delta13c.notacid))
+#  13C * 0.836 - 4.847
+
+POMSourcesSI_long.sm <- POMSourcesSI_long %>% select(Date, Species, Pore.Size, delta13c.acidified, delta15n.notacid, 
+                                                     percentC.acidified, percentN.notacid, C_N, Month) %>% 
+  rename(delta13c = delta13c.acidified, 
+         delta15n = delta15n.notacid,
+         percent.C = percentC.acidified, 
+         percent.N = percentN.notacid)
+
+
+
+
+# Now do zooplankton samples
+
+SI.combined.zoops <- SI.combined %>% filter(Species != "POM") 
+
+# Discard acidified samples, they were checked previously and used to make correction for Limacina
+SI.zoops.nonacid <- SI.combined.zoops %>% filter(Acidified == "Non") %>% 
   rename(delta13c.not = delta13c, 
          delta15n.not = delta15n)
-colnames(SI.combined.nonacid)
+colnames(SI.zoops.nonacid)
 
 
 
@@ -430,42 +485,40 @@ colnames(SI.combined.nonacid)
 # mean(SI.combined.Limacina.wide$percent.C.offset, na.rm = T)
 
 
-# Have not made offset for C:N ratio yet 
+# Correction factor for Limacina percentC and delta13C 
 offset.delta13C <- 3.870198 # 3.870198 before=3.882431
 offset.percent.C <- 11.8205 # 11.8205 before=10.78028
 
-SI.combined.nonacid.Limacina <- SI.combined.nonacid %>% filter(Species == "Limacina helicina")  
-SI.combined.nonacid.Limacina$delta13c.not <- SI.combined.nonacid.Limacina$delta13c.not - offset.delta13C
-SI.combined.nonacid.Limacina$percent.C <- SI.combined.nonacid.Limacina$percent.C - offset.percent.C
+SI.zoops.nonacid.Limacina <- SI.zoops.nonacid %>% filter(Species == "Limacina helicina")  
+SI.zoops.nonacid.Limacina$delta13c.not <- SI.zoops.nonacid.Limacina$delta13c.not - offset.delta13C
+SI.zoops.nonacid.Limacina$percent.C <- SI.zoops.nonacid.Limacina$percent.C - offset.percent.C
 
 
-SI.combined.nonacid.NOLimacina <- SI.combined.nonacid %>% filter(Species != "Limacina helicina")  
-SI.combined.nonacid.corrected <- full_join(SI.combined.nonacid.Limacina, SI.combined.nonacid.NOLimacina)
+SI.zoops.nonacid.NOLimacina <- SI.zoops.nonacid %>% filter(Species != "Limacina helicina")  
+SI.zoops.nonacid.corrected <- full_join(SI.zoops.nonacid.Limacina, SI.zoops.nonacid.NOLimacina)
 
 # Calculate C:N (from non acidified samples, need to use corrected Limacina)
-SI.combined.nonacid.corrected$C_N <- (SI.combined.nonacid.corrected$percent.C * 12.01) / (SI.combined.nonacid.corrected$percent.N * 14.007)
+SI.zoops.nonacid.corrected$C_N <- (SI.zoops.nonacid.corrected$percent.C * 12.01) / (SI.zoops.nonacid.corrected$percent.N * 14.007)
 
 
 # Only lipid correct Zooplankton NOT POMs
 
-SI.combined.nonacid.corrected.noPOM <- SI.combined.nonacid.corrected %>% filter(Species != "POM")
-SI.combined.nonacid.corrected.POM <- SI.combined.nonacid.corrected %>% filter(Species == "POM")
-colnames(SI.combined.nonacid.corrected.POM)
-SI.combined.nonacid.corrected.POM <- SI.combined.nonacid.corrected.POM %>% mutate(delta13c =  delta13c.not)
-
-
 
 # lipid correction on Del13C following regression for SoG copepods
 # δ13C_corrected = δ13C_bulk + (0.38 * C:N_bulk) - 1.85  (El-Sabaawi et al. 2009)
-SI.combined.nonacid.corrected.noPOM <- SI.combined.nonacid.corrected.noPOM %>% mutate(delta13c =  delta13c.not + (0.38 * C_N) - 1.85 )
-SI.combined.nonacid.corrected.noPOM <- SI.combined.nonacid.corrected.noPOM %>% rename(delta13c.notlipidcorrected = delta13c.not)
-
-SI.combined.nonacid.corrected.final <- full_join(SI.combined.nonacid.corrected.noPOM, SI.combined.nonacid.corrected.POM)
-
+SI.zoops.nonacid.corrected <- SI.zoops.nonacid.corrected %>% mutate(delta13c =  delta13c.not + (0.38 * C_N) - 1.85 )
+SI.zoops.nonacid.corrected <- SI.zoops.nonacid.corrected %>% rename(delta13c.notlipidcorrected = delta13c.not,
+                                                                    delta15n = delta15n.not)
 
 
 
-# QU39 POMs isotope data compiling and filtering 
+# Combine POM size fractions and zooplankton
+SI.corrected.final <- full_join(SI.zoops.nonacid.corrected, POMSourcesSI_long.sm)
+
+
+
+
+# QU39 bulk POMs isotope data compiling and filtering 
 
 # Load POM Isotope Data 
 POMisotopeDataQU39 <- read.csv("raw_data/2024-01-18_131849_HakaiData_poms.csv", stringsAsFactors = FALSE, na=c("", "NA"))
@@ -571,30 +624,35 @@ POMisoData_all <- POMisoData_0and5m.agg %>% select(-Group.1) %>%
 POMisoData_all$Species <- "POM"
 POMisoData_all$Pore.Size <- "bulk"
 POMisoData_all <- POMisoData_all %>% rename(C_N = C_N_notacid) %>% 
-  rename(delta15n.not = delta15n.notacid) %>% 
+  rename(delta15n = delta15n.notacid) %>% 
   rename(delta13c = delta13c.acidified) %>% 
-  select(Date, Species, Pore.Size, Line.Out.Depth, C_N, delta15n.not, delta13c, delta13c.notacid, C_ug.L.acidified, C_ug.L.notacid, N_ug.L.notacid) 
+  select(Date, Species, Pore.Size, Line.Out.Depth, C_N, delta15n, delta13c, delta13c.notacid, C_ug.L.acidified, C_ug.L.notacid, N_ug.L.notacid) 
 
-SI.combined.nonacid.corrected.final$Pore.Size <- as.character(SI.combined.nonacid.corrected.final$Pore.Size)
+
+
+# Adjust structure for joining
+SI.corrected.final$Pore.Size <- as.character(SI.corrected.final$Pore.Size)
 
 # remove 3-30-2022 POM samples that were filtered >8 hrs after collection and were very different than samples from the day before
-SI.combined.nonacid.corrected.final <- SI.combined.nonacid.corrected.final %>% filter(Species !="POM" | Date != as.Date("2022-03-30"))
+SI.corrected.final <- SI.corrected.final %>% filter(Species !="POM" | Date != as.Date("2022-03-30"))
 
-ZS.SIdata <- full_join(SI.combined.nonacid.corrected.final, POMisoData_all)
+
+
+ZS.SIdata <- full_join(SI.corrected.final, POMisoData_all)
 
 ZS.SIdata <- ZS.SIdata %>% select(Date:Species, Site, 
                                   Line.Out.Depth, Pore.Size, Month, C_N, 
-                                  delta13c, delta15n.not, C_ug.L.acidified)
+                                  delta13c, delta15n, delta13c.notlipidcorrected,
+                                  percent.C, percent.N, C_ug.L.acidified, N_ug.L.notacid)
 ZS.SIdata <- ZS.SIdata %>% rename(Depth = Line.Out.Depth,
-                                  Site.ID = Site, 
-                                  delta15n = delta15n.not)
+                                  Site.ID = Site)
   
- # write.csv(ZS.SIdata, "full_zoopsprint SI 20250317.csv", row.names = F)
+  # write.csv(ZS.SIdata, "full_zoopsprint SI 20251012.csv", row.names = F)
 
 
 
 
-
+SI.combined.nonacid.corrected.final$delta13c.not
 
 
 
@@ -674,12 +732,110 @@ chl_all <- chl_all %>%  mutate(SumChl = (chl_20um + chl_3um + chl_GF.F))
 chl_all <- chl_all %>% select(-chl_Bulk.GF.F)
 
 
-# write.csv(chl_all, "zoopsprint Chl data 2025-03-17.csv", row.names = F)
+# write.csv(chl_all, "zoopsprint Chl data 2025-04-24.csv", row.names = F)
 
 
 
 
 
+
+
+# CTD data ----------------------------------------------------------------
+
+# This is CTD data downloaded on 2025-11-08 for QU24 and QU39 for ZS sampling period
+CTDdata <- read.csv("raw_data/8_binAvg-1762624175904.csv", stringsAsFactors = F)
+
+str(CTDdata)
+# I save the date in two formats to work with, with just the date and one with the time included
+CTDdata$Measurement.timeDate <- as.Date(CTDdata$Measurement.time, "%Y-%m-%d  %H:%M:%S")
+CTDdata$Measurement.time <- as.POSIXct(CTDdata$Measurement.time)
+
+
+length(unique(CTDdata$Cast.PK))
+# There are 693 CTD casts
+length(unique(CTDdata$Measurement.timeDate))
+# Casts were taken on 2 days
+# No data from 5/18/2021
+
+
+# Make a vector of all the casts (I could have done this w start time as well)
+casts <- unique(CTDdata$Cast.PK)
+
+
+
+
+# *Calculate buoyancy flux --------------------------------------
+
+# I use this as an index of stratification
+# library(oce)
+
+CTDdata$N2 <- rep(NA, nrow(CTDdata))
+
+for(i in 1:length(casts)){
+  ctd <- as.ctd(salinity = CTDdata$Salinity..PSU.[CTDdata$Cast.PK==casts[i]], 
+                temperature = CTDdata$Temperature..deg.C.[CTDdata$Cast.PK==casts[i]], 
+                pressure = CTDdata$Pressure..dbar.[CTDdata$Cast.PK==casts[i]]) 
+  CTDdata$N2[CTDdata$Cast.PK==casts[i]] <- swN2(ctd)
+}
+
+
+
+
+# *Calculate summary stats --------------------------------------
+
+# I am interested in characterizing the environment of the upper 30 m to correlate with POMFA
+# This this is an old-fashioned way of coding where I make an empty table and then fill it with the values I want
+
+# Empty data frame to fill 
+castSummary<- matrix(nrow=length(casts), ncol=12, byrow=TRUE)
+castSummary<- as.data.frame(castSummary)
+
+for(i in 1:length(casts)){
+  # Time of cast
+  castSummary[i,1] <- (unique(CTDdata$Measurement.time[CTDdata$Cast.PK==casts[i]]))[1]
+  # Cast.PK
+  castSummary[i,2] <- (unique(CTDdata$Cast.PK[CTDdata$Cast.PK==casts[i]]))
+  # SST is mean temperature between 4-6 m inclusive; 
+  # I am avoiding the first couple meters because of occasional data quality issues due to filtering out the soak 
+  castSummary[i,3] <- mean(CTDdata$Temperature..deg.C.[which(CTDdata$Cast.PK==casts[i] & CTDdata$Depth..m.<=5 & CTDdata$Depth..m.>=1)])
+  # SSS is mean salinity between 4-6 m inclusive
+  # I am avoiding the first couple meters because of occasional data quality issues due to filtering out the soak 
+  castSummary[i,4] <- mean(CTDdata$Salinity..PSU.[which(CTDdata$Cast.PK==casts[i] & CTDdata$Depth..m.<=5 & CTDdata$Depth..m.>=1)])
+  # Maximum Chl fluorescence over upper 30 m
+  castSummary[i,5] <- max(CTDdata$Fluorometry.Chlorophyll..ug.L.[which(CTDdata$Cast.PK==casts[i])])
+  # Average Chl fluorescence over upper 30 m
+  castSummary[i,6] <- mean(CTDdata$Fluorometry.Chlorophyll..ug.L.[which(CTDdata$Cast.PK==casts[i] & CTDdata$Depth..m.<=30)])
+  # Minimum dissolved oxygen over the whole water column
+  castSummary[i,7] <- min(CTDdata$Dissolved.O2..mL.L.[which(CTDdata$Cast.PK==casts[i] & CTDdata$Dissolved.O2..mL.L.>0)], na.rm = T)
+  # Date of cast
+  castSummary[i,8] <- (unique(CTDdata$Measurement.timeDate[CTDdata$Cast.PK==casts[i]]))
+  # Adding in min fluorescence as a QC check
+  castSummary[i,9] <- min(CTDdata$Fluorometry.Chlorophyll..ug.L.[which(CTDdata$Cast.PK==casts[i])])
+  # Average temperature over upper 30 m, excluding top few meters to avoid potential quality issues
+  castSummary[i,10] <- mean(CTDdata$Temperature..deg.C.[which(CTDdata$Cast.PK==casts[i] & CTDdata$Depth..m.<=30 & CTDdata$Depth..m.>=1)])
+  # Average bouyancy flux (N2) over upper 30 m (I AM INCLUDING SURFACE LAYERS HERE, SHOULD FIGURE OUT IF THERE ACTUALLY ARE ISSUES)
+  castSummary[i,11] <- mean(CTDdata$N2[which(CTDdata$Cast.PK==casts[i] & CTDdata$Depth..m.<=30 & CTDdata$Depth..m.>=0.2)])
+  # Include station to differentiate QU39 and QU24 
+  castSummary[i,12] <- as.character(unique(CTDdata$Station[CTDdata$Cast.PK==casts[i]]))
+  # There are some extra lines w/o data on a few profiles that give me NAs when I calculate buoyancy frequency with them included
+}
+
+# Variable names to correspond to what I just calculated
+names(castSummary) <- c("date", "Cast.PK", "SST", "SSS", "Max.Chl","Mean.Chl", "Min.O2", "Measurement.timeDate", "Min.Chl", "30mTemp", "N2.30m", "Station")
+str(castSummary)
+# Reformat dates
+castSummary$Measurement.timeDate <- as.Date.numeric(castSummary$Measurement.timeDate, origin = "1970-01-01")
+castSummary$date <- as.POSIXct(castSummary$date, origin = "1970-01-01")
+
+# Calculate log of buoyancy flux to use as stratification index 
+castSummary$log10.N2 <- log10(castSummary$N2.30m)
+# higher values indicate more stratified/stable waters; 
+# lower/more negative values indicate weakly stratified/mixed waters
+
+
+
+
+write.csv(CTD_all, "CTD summary stats for each day_20251108.csv", row.names = F)
 
 
 
